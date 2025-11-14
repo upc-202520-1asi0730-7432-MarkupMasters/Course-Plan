@@ -60,14 +60,60 @@ Los estudiantes aprenderán qué es un sitio web, cómo se estructura con HTML, 
 - Cambiar el título.
 - Agregar tu nombre como ```<h2>```.
 - Agregar un párrafo con algo que te guste.
-### Lección 3: Añadir más elementos HTML (8 minutos)
-- **Descripción**: Cómo agregar listas, imágenes y enlaces para enriquecer una página web.
+### Lección 3: Añadir más elementos HTML (12 minutos)
+**Responsable: Ysaac Ligorio Villanueva Andrade**
+- **Descripción**: En esta lección aprenderás a enriquecer tus páginas web utilizando elementos HTML esenciales que permiten organizar mejor la información y hacerla más visual e interactiva. Exploraremos cómo usar listas ordenadas y desordenadas para estructurar contenido, cómo insertar imágenes dentro de una página, y cómo crear enlaces tanto externos como internos para mejorar la navegación. También practicaremos la jerarquía de títulos y el uso correcto de párrafos para construir una estructura clara y atractiva. Al finalizar, serás capaz de crear secciones completas, agregar imágenes, añadir listas de pasos o elementos, y conectar páginas o secciones mediante enlaces.
 - **Enlace**: [Ver la lección](https://www.youtube.com/watch?v=example-link3)
 - **Consejos clave**: 
 - ```<ul>``` listas
 - ```<a>``` enlaces
 - ```<img>``` imágenes
 - **Práctica**: [Clic para programar]( https://replit.com/~ ) 👈 **¡Comienza al instante!**
+- **Código inicial utilizado en la exposición:**
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Más Elementos HTML</title>
+</head>
+<body>
+
+<h1 id="inicio">Titulo de principal</h1>
+<h2>Seccion importante</h2>
+<h3>Subseccion o detalle</h>
+
+<p> este es un parrafo de ejemplo</p>
+<p>este es otro parrafo de ejemplo</p>
+
+
+<h2> Lista de compras</h2>
+<ul>
+  <li>Pan</li>
+  <li>Huevo</li>
+  <li>Carne</li>
+</ul>
+
+<h2>Pasos para hacer cafe</h2>
+<ol>
+  <li>Hervir agua</li>
+  <li>Agregar cafe a la taza</li>
+  <li>Verter el agua caliente</li>
+  <li>Mezclar y servir</li>
+</ol>
+
+  
+<h2>Mi imagen</h2>
+<img src="www.miimagen/gatitos.com" alt="imagen de ejemplo" width="200">
+
+
+<h2>Enlaces</h2>
+<a href="https://www.google.com" target="_blank">Visitar Google</a>
+<a href="#inicio">Volver al inicio de la pagina</a>
+  
+</body>
+</html>
+```
 ### Lección 4: Introducción a CSS (12 minutos)
 - **Descripción**: Dale estilo a tu HTML con colores, fuentes y diseños.
 - **Enlace**: [Ver la lección](https://www.youtube.com/watch?v=example-link4)
