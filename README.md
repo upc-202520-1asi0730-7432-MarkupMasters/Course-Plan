@@ -76,7 +76,7 @@ Los estudiantes aprenderán qué es un sitio web, cómo se estructura con HTML, 
 ### Lección 5: Crear una página web sencilla (15 minutos)
 - **Descripción**: En esta lección aplicamos HTML y CSS para darle estilo a una página simple: centrado, colores con buen contraste, tipografías legibles, esquinas redondeadas, sombras y un botón con hover. Al final tendrás una tarjeta de perfil lista para personalizar con tu nombre, foto, hobbies y enlace favorito.
 
-- **Enlace**: [Ver la lección](https://www.youtube.com/watch?v=FcOOXUnOXNs&list=PLxMjblsVuJn7qYQDZuP30NmBP4swOcuAx&index=3)
+- **Enlace**: [Ver la lección](https://www.youtube.com/watch?v=Vx0Xop0ZgM4)
 
 - **Consejos clave**: 
 - ```<link rel="stylesheet" href="style.css">``` conectar CSS
