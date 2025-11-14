@@ -74,10 +74,140 @@ Los estudiantes aprenderán qué es un sitio web, cómo se estructura con HTML, 
 - **Consejos clave**: Vincular CSS, usar selectores como `body { background-color: blue; }`.
 - **Práctica**: [Aplicar estilo con un clic]( https://replit.com/~ n) 
 ### Lección 5: Crear una página web sencilla (15 minutos)
-- **Descripción**: Combinar HTML y CSS para crear una página de perfil personal.
-- **Enlace**: [Ver la lección](https://www.youtube.com/watch?v=example-link5)
-- **Consejos clave**: Aplicar estilos y depurar errores.
-- **Proyecto Final**: [Crea tu Perfil]( https://replit.com/~ )
+- **Descripción**: En esta lección aplicamos HTML y CSS para darle estilo a una página simple: centrado, colores con buen contraste, tipografías legibles, esquinas redondeadas, sombras y un botón con hover. Al final tendrás una tarjeta de perfil lista para personalizar con tu nombre, foto, hobbies y enlace favorito.
+
+- **Enlace**: [Ver la lección](https://www.youtube.com/watch?v=FcOOXUnOXNs&list=PLxMjblsVuJn7qYQDZuP30NmBP4swOcuAx&index=3)
+
+- **Consejos clave**: 
+- ```<link rel="stylesheet" href="style.css">``` conectar CSS
+- ```.card { margin: 40px auto; }```  centrar
+- ```border-radius``` · ```box-shadow``` · ```line-height```
+- ```.btn:hover { … }```  interacción
+
+- **Código inicial utilizado en la lección:**
+```html
+<!DOCTYPE html>
+<html lang = "es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Mi perfil</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <main class="card">
+    <img
+      src="img/perfil.webp"
+      alt="Foto de perfil"
+      class="avatar">
+
+    <h1>Juan Carlos</h1>
+    <h2>Estudiante de secundaria</h2>
+
+    <p class="bio">
+      Me gusta la tecnología, los videojuegos y aprender cosas nuevas.
+      Este es mi primer sitio web hecho con HTML y CSS.
+    </p>
+
+    <h3>Mis hobbies</h3>
+    <ul class="hobbies">
+      <li> 🎮 Jugar videojuegos</li>
+      <li> 📚 Leer</li>
+      <li> 🎵 Escuchar música</li>
+    </ul>
+
+    <a class="btn" href="#" target="_blank">
+      Ver más sobre mí
+    </a>
+  </main>
+</body>
+</html>
+
+```
+
+```css
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: #0f172a;
+  color: #e5e7eb;
+  margin: 0;
+  padding: 20px;
+}
+
+.card{
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 24px;
+  background-color: #111827;
+  border-radius: 16px;
+  border: 1px solid #1f2937;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4)
+}
+
+.avatar{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #38bdf8;
+}
+
+h1{
+  margin: 16px 0 4px;
+  font-size: 26px;
+}
+
+h2{
+  margin: 0 0 16px;
+  font-size: 16px;
+  color: #9ca3af;
+}
+
+.bio{
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+.hobbies{
+  list-style: none;
+  padding: 0;
+  margin: 0 0 16px;
+}
+
+.hobbies li {
+  margin: 4px 0;
+}
+
+.btn{
+  display: inline-block;
+  padding: 10px 18px;
+  border-radius: 999px;
+  text-decoration: none;
+  background-color: #38bdf8;
+  color: #0f172a;
+  font-weight: 600;
+  transition: trasform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(56, 189, 248, 0.4);
+}
+
+```
+- **Proyecto Final**: [Crea tu Perfil]( https://replit.com/join/tfpplvzauc-schneider0104dc )
+
+- **Reto:**
+- Cambia el nombre y la descripción por los tuyos.
+- Cambia la imagen por una foto o un personaje que te guste.
+- Edita los hobbies.
+- Pon un enlace real en el botón.
+
+- **Práctica**: [Clic para programar](https://replit.com/@replit/HTML-CSS-JS-Static?v=1#index.html )
 ### Lección 6: Consejos y Próximos Pasos (10 minutos)
 - **Descripción**: Mejores prácticas, errores comunes y dónde aprender más.
 - **Enlace**: [Ver Lección](https://www.youtube.com/watch?v=example-link6)
@@ -94,7 +224,7 @@ Los estudiantes aprenderán qué es un sitio web, cómo se estructura con HTML, 
 | 2      | Crear página HTML básica           | https://replit.com/~ |
 | 3      | Añadir imágenes, enlaces y listas  | https://replit.com/~ |
 | 4      | Aplicar estilos básicos con CSS    | https://replit.com/~ |
-| 5      | Crear página de perfil personal    | https://replit.com/~ |
+| 5      | Crear página de perfil personal    | https://replit.com/join/tfpplvzauc-schneider0104dc |
   
 - Cuestionario: [Pon a prueba tus conocimientos](https://forms.gle/your-quiz)
 - Compartir: #WebDevBeginners
