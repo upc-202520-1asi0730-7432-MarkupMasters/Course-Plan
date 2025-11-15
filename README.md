@@ -18,11 +18,11 @@ Los estudiantes aprenderán qué es un sitio web, cómo se estructura con HTML, 
 
 ### Lección 1: ¿Qué es el desarrollo web? (5 minutos)
 - **Descripción:** Presentación general sobre qué son los sitios web, cómo funcionan y qué roles cumplen HTML y CSS.
-- **Enlace:** https://www.youtube.com/watch?v=example-link1
+- **Enlace:** https://www.youtube.com/watch?v=KX0RQCbdlOs
 - **Consejos clave:**  
   - Los sitios web combinan **estructura (HTML)** y **estilos (CSS)**.  
   - Todo contenido visual comienza como código.  
-- **Práctica:** *(CodePen o Replit según el equipo)*
+- **Práctica:** [Replit](https://replit.com/~)
 
 ---
 
@@ -34,9 +34,9 @@ Los estudiantes aprenderán qué es un sitio web, cómo se estructura con HTML, 
   Se construye una primera página funcional desde cero usando **Replit** y una plantilla inicial.  
   La lección incluye una demostración práctica en vivo y un reto final para los estudiantes.
 
-- **Enlace del video:** https://www.youtube.com/watch?v=example-link2  
+- **Enlace**: [Ver la lección](https://www.youtube.com/watch?v=4b1OAp_udnk) 
 - **Práctica en Replit:**  
-  https://replit.com/~ *(Starter que los estudiantes completan)*  
+  https://replit.com/~
 
 - **Código inicial utilizado en la exposición:**
 ```html
@@ -63,12 +63,12 @@ Los estudiantes aprenderán qué es un sitio web, cómo se estructura con HTML, 
 ### Lección 3: Añadir más elementos HTML (12 minutos)
 **Responsable: Ysaac Ligorio Villanueva Andrade**
 - **Descripción**: En esta lección aprenderás a enriquecer tus páginas web utilizando elementos HTML esenciales que permiten organizar mejor la información y hacerla más visual e interactiva. Exploraremos cómo usar listas ordenadas y desordenadas para estructurar contenido, cómo insertar imágenes dentro de una página, y cómo crear enlaces tanto externos como internos para mejorar la navegación. También practicaremos la jerarquía de títulos y el uso correcto de párrafos para construir una estructura clara y atractiva. Al finalizar, serás capaz de crear secciones completas, agregar imágenes, añadir listas de pasos o elementos, y conectar páginas o secciones mediante enlaces.
-- **Enlace**: [Ver la lección](https://www.youtube.com/watch?v=example-link3)
+- **Enlace**: [Ver la lección](https://www.youtube.com/watch?v=nwPF15B9RQk)
 - **Consejos clave**: 
 - ```<ul>``` listas
 - ```<a>``` enlaces
 - ```<img>``` imágenes
-- **Práctica**: [Clic para programar]( https://replit.com/~ ) 👈 **¡Comienza al instante!**
+- **Práctica**: [Clic para programar]( https://replit.com/~ )
 - **Código inicial utilizado en la exposición:**
 ```html
 <!DOCTYPE html>
@@ -409,7 +409,7 @@ h2{
 | Lección | Actividad                         | Editor Online / Enlace |
 |--------|------------------------------------|--------------------------|
 | 1      | Explorar sitios web                | https://replit.com/~ |
-| 2      | Crear página HTML básica           | https://replit.com/~ |
+| 2      | Crear página HTML básica           | https://replit.com/@ManuelTumi/HTML-CSS-JS-Static#index.html |
 | 3      | Añadir imágenes, enlaces y listas  | https://replit.com/~ |
 | 4      | Aplicar estilos básicos con CSS    | https://replit.com/@matadorxdm/HTML-CSS-JS-Static#style.css
 | 5      | Crear página de perfil personal    | https://replit.com/join/tfpplvzauc-schneider0104dc |
