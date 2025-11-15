@@ -410,7 +410,7 @@ h2{
 |--------|------------------------------------|--------------------------|
 | 1      | Explorar sitios web                | https://replit.com/~ |
 | 2      | Crear página HTML básica           | https://replit.com/@ManuelTumi/HTML-CSS-JS-Static#index.html |
-| 3      | Añadir imágenes, enlaces y listas  | https://replit.com/~ |
+| 3      | Añadir imágenes, enlaces y listas  | https://replit.com/@villanuevaysaac/LECCION-3#index.html |
 | 4      | Aplicar estilos básicos con CSS    | https://replit.com/@matadorxdm/HTML-CSS-JS-Static#style.css
 | 5      | Crear página de perfil personal    | https://replit.com/join/tfpplvzauc-schneider0104dc |
   
