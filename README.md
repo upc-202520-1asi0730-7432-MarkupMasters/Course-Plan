@@ -17,7 +17,7 @@ Los estudiantes aprenderán qué es un sitio web, cómo se estructura con HTML, 
 ## Secuencia de la Lección
 
 ### Lección 1: ¿Qué es el desarrollo web? (5 minutos)
-- **Descripción:** Presentación general sobre qué son los sitios web, cómo funcionan y qué roles cumplen HTML y CSS.
+- **Descripción:** Presentación general sobre qué son los sitios web, cómo funcionan y qué roles cumplen HTML y CSS. Ademas presentando los mitos y mejoras para la codificacion del curso.
 - **Enlace:** https://www.youtube.com/watch?v=KX0RQCbdlOs
 - **Consejos clave:**  
   - Los sitios web combinan **estructura (HTML)** y **estilos (CSS)**.  
@@ -397,7 +397,7 @@ h2{
 
 - **Práctica**: [Clic para programar](https://replit.com/@replit/HTML-CSS-JS-Static?v=1#index.html )
 ### Lección 6: Consejos y Próximos Pasos (10 minutos)
-- **Descripción**: Mejores prácticas, errores comunes y dónde aprender más.
+- **Descripción**: Mejores prácticas para la codificacion, errores comunes en presentacion y letras en codigo y dónde aprender más sobre el tema de las presentaciones de las paginas web.
 - **Enlace**: [Ver Lección](https://www.youtube.com/watch?v=example-link6)
 - **Consejos Clave**: Valida el código, explora la Documentación Web de MDN.
 - **Comparte tu Trabajo**: [Envía tu Creación](https://forms.gle/your-form)
