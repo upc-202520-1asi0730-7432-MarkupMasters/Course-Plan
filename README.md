@@ -115,10 +115,151 @@ Los estudiantes aprenderán qué es un sitio web, cómo se estructura con HTML, 
 </html>
 ```
 ### Lección 4: Introducción a CSS (12 minutos)
-- **Descripción**: Dale estilo a tu HTML con colores, fuentes y diseños.
-- **Enlace**: [Ver la lección](https://www.youtube.com/watch?v=example-link4)
-- **Consejos clave**: Vincular CSS, usar selectores como `body { background-color: blue; }`.
-- **Práctica**: [Aplicar estilo con un clic]( https://replit.com/~ n) 
+**Responsable: Carlos Alberto Lopez Goitia**
+
+- **Descripción**: En esta lección vinculamos un archivo CSS a nuestro HTML y aplicamos estilos base: colores, tipografías, espaciados, estados `:hover` / `:focus-visible`, listas e imágenes.
+
+- **Enlace**: [Ver la lección](https://www.youtube.com/watch?v=682UD1dy1Bs)
+
+- **Consejos clave**: 
+- `<link rel="stylesheet" href="style.css">`  conectar CSS
+- `body { background-color: #0f172a; color: #e2e8f0; }`  color y tipografía
+- `h1, h2, h3 { margin: 0 0 12px; }` · `p { max-width: 65ch; }`  jerarquía y legibilidad
+- `a:hover { background-color: #1f2a41; }` · `a:focus-visible { outline: 2px solid #60a5fa; }`  interacción y accesibilidad
+- `* { box-sizing: border-box; }`  tamaños predecibles
+
+- **Código inicial utilizado en la lección:**
+```html
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Introducción a CSS</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1 id="inicio">Mi primera página con CSS</h1>
+  <h2>Sección importante</h2>
+  <h3>Subsección o detalle</h3>
+
+  <p>
+    Esta página conecta un archivo <strong>style.css</strong> para controlar colores,
+    tipografías y espaciados. Todo el diseño vive fuera del HTML.
+  </p>
+
+  <p>
+    Observa cómo el CSS ajusta márgenes, el ancho de imágenes y el comportamiento de los
+    enlaces al pasar el mouse o navegar con teclado.
+  </p>
+
+  <h2>Lista de compras</h2>
+  <ul>
+    <li>Pan</li>
+    <li>Leche</li>
+    <li>Huevos</li>
+  </ul>
+
+  <h2>Pasos para hacer café</h2>
+  <ol>
+    <li>Hervir agua</li>
+    <li>Agregar café a la taza</li>
+    <li>Verter el agua caliente</li>
+    <li>Mezclar y servir</li>
+  </ol>
+
+  <h2>Imagen de ejemplo</h2>
+  <!-- Coloca tu imagen en /img y ajusta el nombre del archivo -->
+  <img src="img/cafe.jpg" alt="Taza de café" width="360">
+
+  <h2>Enlaces</h2>
+  <p>
+    <a href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank" rel="noopener">Documentación CSS (MDN)</a>
+    &nbsp;·&nbsp;
+    <a href="#inicio">Volver al inicio</a>
+  </p>
+</body>
+</html>
+```
+```css
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0f172a;
+  color: #e2e8f0;
+  margin: 0;
+  font-family: system-ui, Arial, sans-serif;
+  line-height: 1.65;
+  padding: 24px;
+}
+
+h1, h2, h3 {
+  margin: 0 0 12px;
+}
+
+p {
+  margin: 0 0 14px;
+  max-width: 65ch;
+}
+
+ul, ol {
+  padding-left: 24px;
+  margin: 0 0 16px;
+}
+
+li {
+  margin: 4px 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, .35);
+  margin: 8px 0 16px;
+}
+
+a {
+  color: #93c5fd;
+  text-decoration: none;
+  border-bottom: 1px dashed rgba(147, 197, 253, 0.5);
+  transition: all .15s ease;
+}
+
+a:hover {
+  color: #bfdbfe;
+  background-color: #1f2a41;
+  border-bottom-color: transparent;
+}
+
+a:focus-visible {
+  outline: 2px solid #60a5fa;
+  outline-offset: 3px;
+  border-bottom-color: transparent;
+}
+
+#inicio {
+  scroll-margin-top: 16px;
+}
+```
+- **Proyecto Final**: **Lección 4 – Introducción a CSS.** Estiliza tu página con colores, fuentes, márgenes y estados `:hover`/`:focus-visible` usando `style.css`. [Abrir Replit](https://replit.com/@matadorxdm/HTML-CSS-JS-Static)
+
+- **Reto:**
+  - Cambia el **color de fondo** y la **tipografía** en `body`.
+  - Crea un `:hover` distinto para `a` (subrayado + cambio de color).
+  - Añade `:focus-visible` para accesibilidad.
+  - Reemplaza la imagen por una propia en `/img` y actualiza `src`.
+  - Ajusta **márgenes** y verifica **contraste**.
+
+- **Práctica**: [Clic para programar](https://replit.com/@replit/HTML-CSS-JS-Static?v=1#index.html)
+
+
+
 ### Lección 5: Crear una página web sencilla (15 minutos)
 **Responsable: Schneider Carlos Alberto Delgado Carrasco**
 - **Descripción**: En esta lección aplicamos HTML y CSS para darle estilo a una página simple: centrado, colores con buen contraste, tipografías legibles, esquinas redondeadas, sombras y un botón con hover. Al final tendrás una tarjeta de perfil lista para personalizar con tu nombre, foto, hobbies y enlace favorito.
@@ -270,7 +411,7 @@ h2{
 | 1      | Explorar sitios web                | https://replit.com/~ |
 | 2      | Crear página HTML básica           | https://replit.com/~ |
 | 3      | Añadir imágenes, enlaces y listas  | https://replit.com/~ |
-| 4      | Aplicar estilos básicos con CSS    | https://replit.com/~ |
+| 4      | Aplicar estilos básicos con CSS    | https://replit.com/@matadorxdm/HTML-CSS-JS-Static#style.css
 | 5      | Crear página de perfil personal    | https://replit.com/join/tfpplvzauc-schneider0104dc |
   
 - Cuestionario: [Pon a prueba tus conocimientos](https://forms.gle/your-quiz)
